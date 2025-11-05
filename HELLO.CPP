@@ -1,9 +1,10 @@
 #include<iostream>
 using namespace std;
-int main()
-{
+int main(){
+    int a = 10;
     
-     cout << "Hello!, I am a student." << endl;
+    int b = a++; //work -> update
+     cout << " a = " << a << endl;
+     cout << " b = " << b << endl;
     return 0;
 }
- 
