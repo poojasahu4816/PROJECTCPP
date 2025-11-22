@@ -1,10 +1,7 @@
-#include<iostream>
-using namespace std;
-int main(){
-    int a = 10;
-    
-    int b = a++; //work -> update
-     cout << " a = " << a << endl;
-     cout << " b = " << b << endl;
-    return 0;
-}
+a = int(a)
+b = int(b) 
+a,b = map(int, input().split())
+if a>= b;
+  print("yes")
+else:
+   print("no")
